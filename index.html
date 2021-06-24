@@ -5,17 +5,88 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
    <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
    <title>Fun Fake Website</title>
 </head>
 
-<body>
-   <header></header>
-   <main></main>
-   <footer></footer>
+<style>
+   body.debug .container,
+   body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+   }
+
+   body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+   }
+
+   body.debug [class*="col-"] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+   }
+</style>
+
+<body class="">
+   <main class="container-fluid">
+      <div class="row py-3 jusity-content-left header-background-image text-light">
+         <div class="col-lg-5 my-auto">
+            <h4>Big Chungus</h4>
+            <p>He eats like none other</p>
+            <button type="button" class="btn btn-primary btn-sm">Don't Ask Questions</button>
+         </div>
+      </div>
+      <div class="row py-3 justify-content-center text-center text-light bg-icon">
+         <div class="col-sm-2 card bg-secondary p-0 mx-1">
+            <i class="mdi mdi-account-reactivate fat"></i>
+            <p>This icon means something.</p>
+         </div>
+         <div class="col-sm-2 card bg-secondary p-0 mx-1">
+            <i class="mdi mdi-spirit-level fat"></i>
+            <p>This icon means something.</p>
+         </div>
+         <div class="col-sm-2 card bg-secondary p-0 mx-1">
+            <i class=" mdi mdi-chart-box-plus-outline fat"></i>
+            <p>This icon means something.</p>
+         </div>
+         <div class="col-sm-2 card bg-secondary p-0 mx-1">
+            <i class="mdi mdi-cash-100 fat"></i>
+            <p>This icon means something.</p>
+         </div>
+      </div>
+      <div class="row py-3 justify-content-center text-center">
+         <div class="col-6">
+            <h4>BEGAS</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <form>
+               <input type="text"><button type="button" class="btn-primary">Submit</button>
+            </form>
+         </div>
+      </div>
+      <div class="row py-3 flex-grow-1 footer-background-image">
+         <div class="col"></div>
+      </div>
+   </main>
+   <footer>
+      <div class="container-fluid">
+         <div class="row text-light bg-dark py-3 text-center justify-content-around">
+            <div class="col-md-6">
+               <div class="row">
+                  <div class="col-3"><i class="mdi mdi-youtube"></i></div>
+                  <div class="col-3"><i class="mdi mdi-instagram"></i></div>
+                  <div class="col-3"><i class="mdi mdi-twitter"></i></div>
+                  <div class="col-3"><i class="mdi mdi-pinterest"></i></div>
+               </div>
+            </div>
+            <div class="col-md-6">
+               Lorem ipsum dolor sit amet consectetur.
+            </div>
+         </div>
+      </div>
+   </footer>
 </body>
 
 </html>

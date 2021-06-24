@@ -1,9 +1,30 @@
-body {
+main {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
-main {
-  flex-grow: 1;
+.bg-icon {
+  background-color: #aac3cd;
+}
+
+.fat {
+   font-size: 75px;
+   color: #daac8b;
+}
+
+.header-background-image {
+  background-image: url(computerheader.jpg);
+  text-shadow: 1px 1px 15px black;
+  background-position: center;
+  background-size: cover;
+  min-height: 60vh;
+}
+
+.footer-background-image {
+  background-image: url(mapfooter.jpg);
+  text-shadow: 1px 1px 15px black;
+  background-position: center;
+  background-size: cover;
+  min-height: 30vh;
 }
