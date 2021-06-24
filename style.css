@@ -4,13 +4,18 @@ main {
   flex-direction: column;
 }
 
-.bg-icon {
+.bg-icon-card {
+  background-color: #aca89f;
+}
+
+
+.bg-icon-row {
   background-color: #aac3cd;
 }
 
 .fat {
    font-size: 75px;
-   color: #daac8b;
+   color: #db9960;
 }
 
 .header-background-image {
@@ -18,7 +23,7 @@ main {
   text-shadow: 1px 1px 15px black;
   background-position: center;
   background-size: cover;
-  min-height: 60vh;
+  min-height: 35vh;
 }
 
 .footer-background-image {
